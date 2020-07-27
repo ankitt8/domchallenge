@@ -1,0 +1,25 @@
+.mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#pixelBoard {
+    display: flex;
+    width: 500px ;
+    height: 500px;
+    border: 1px solid #ccc;
+    flex-direction: column;
+}
+.row {
+    flex: 1;
+    
+    display:flex;
+    border:1px solid #ccc;
+}
+
+.col {
+    flex: 1;
+    border: 1px solid #ccc;
+}
+
